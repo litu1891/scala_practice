@@ -1,0 +1,8 @@
+object typeInterface {
+  println("Welcome to the Scala worksheet")
+  val num = 5
+  val decimal = 5.2567
+  var x = 1 + 2 * 3.5
+  List(1,2,4.5)
+  
+}

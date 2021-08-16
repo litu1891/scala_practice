@@ -1,0 +1,15 @@
+object sunctionExamples {
+  def abs(x:Int) = if (x < 0) -x else x
+  abs(-5)
+  
+  def fac(n:Int) = {
+  	var result = 1
+  	for ( i <- 1 to n)
+  	result *= i
+  	result
+  }
+  fac(5)
+  
+  def factorial(n:Int):Int = if (n <= 0) 1 else n * factorial(n-1)
+  factorial(5)
+}

@@ -1,0 +1,11 @@
+object variables {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  
+  var greeting, message : String = null           //> greeting  : String = null
+  
+  val list1 = List(1,2,3)
+  val list2 = List(1,2,3.0)
+  val list3 = List(1,2,true)
+  val list4 = List(1,2,true,"Ranjan")
+                                                  //| message  : String = null
+}

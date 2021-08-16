@@ -1,0 +1,3 @@
+object operatorsExample {
+  println("Welcome to the Scala worksheet")
+}

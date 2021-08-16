@@ -1,0 +1,5 @@
+object decisions {
+  println("Welcome to the Scala worksheet")
+	var today = "Monday"
+	if(today == "Monday") println("It might rain")
+}

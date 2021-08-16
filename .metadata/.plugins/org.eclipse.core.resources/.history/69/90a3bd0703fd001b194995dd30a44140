@@ -1,0 +1,11 @@
+object sunctionExamples {
+  def abs(x:Int) = if (x < 0) -x else x
+  abs(-5)
+  
+  def fac(n:Int) = {
+  	var result = 1
+  	for ( i <- 1 to n)
+  	result += i
+  }
+  
+}

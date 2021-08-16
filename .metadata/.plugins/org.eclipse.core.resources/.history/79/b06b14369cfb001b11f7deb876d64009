@@ -1,0 +1,9 @@
+object worksheet2 {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  
+  def add(a:Int,b:Int) = a+b
+  add(10,10)
+  
+  def substract(a:Int, b:Int) = a-b
+  substract(10,10)
+}

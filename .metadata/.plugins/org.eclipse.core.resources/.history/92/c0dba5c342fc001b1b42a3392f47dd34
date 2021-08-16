@@ -1,0 +1,3 @@
+object sunctionExamples {
+  println("Welcome to the Scala worksheet")
+}

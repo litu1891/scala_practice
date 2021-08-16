@@ -1,0 +1,4 @@
+object sunctionExamples {
+  def abs(x:Int) = if (x < 0) -x else x           //> Welcome to the Scala worksheet
+  abs(-5)
+}

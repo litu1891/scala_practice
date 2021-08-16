@@ -1,0 +1,6 @@
+object higherOrderFunction {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+	
+	def doub(i:Int) = i * i                   //> doub: (i: Int)Int
+	doub(5)                                   //> res0: Int = 25
+}

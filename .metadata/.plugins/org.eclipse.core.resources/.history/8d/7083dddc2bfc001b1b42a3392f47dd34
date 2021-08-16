@@ -1,0 +1,6 @@
+object variables {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  
+  var greeting, message : String = null           //> greeting  : String = null
+                                                  //| message  : String = null
+}

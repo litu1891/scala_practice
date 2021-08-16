@@ -1,0 +1,4 @@
+object sunctionExamples {
+  def abs(x:Int) = if (x < 0) -x else x           //> abs: (x: Int)Int
+  abs(-5)                                         //> res0: Int = 5
+}
