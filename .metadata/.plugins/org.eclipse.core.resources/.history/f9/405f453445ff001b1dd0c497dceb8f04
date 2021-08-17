@@ -1,0 +1,9 @@
+package Grades
+import io.StdIn._
+object scala extends App {
+  while (true) {
+    println("ok tested")
+  }
+  
+  
+}

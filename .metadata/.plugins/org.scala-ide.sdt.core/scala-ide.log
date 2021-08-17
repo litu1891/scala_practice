@@ -706,3 +706,163 @@ or a JavaFX application class must extend javafx.application.Application
 2021-08-16 22:40:32,712  WARN [Worker-6] - ScalaProject - Project WorksheetExample runs on platform default installation.
 2021-08-16 22:40:44,186  WARN [Java indexing] - ScalaProject - Project HelloWorld has platform default sourceLevel.
 2021-08-16 22:40:44,186  WARN [Java indexing] - ScalaProject - Project HelloWorld runs on platform default installation.
+2021-08-17 15:46:10,963  WARN [main] - ScalaProject - Project SampleProgram has platform default sourceLevel.
+2021-08-17 15:46:10,978  WARN [main] - ScalaProject - Project SampleProgram runs on platform default installation.
+2021-08-17 15:46:10,988  WARN [main] - ScalaProject - Project SampleProgram has platform default sourceLevel.
+2021-08-17 15:46:10,989  WARN [main] - ScalaProject - Project SampleProgram runs on platform default installation.
+2021-08-17 15:46:16,225  WARN [main] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2021-08-17 15:46:16,226  WARN [main] - ScalaProject - Project HelloWorld runs on platform default installation.
+2021-08-17 15:46:19,184  WARN [Worker-2] - ScalaProject - Project WorksheetExample has platform default sourceLevel.
+2021-08-17 15:46:19,192  WARN [Worker-2] - ScalaProject - Project WorksheetExample runs on platform default installation.
+2021-08-17 15:49:42,459  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project WorksheetExample has platform default sourceLevel.
+2021-08-17 15:49:42,459  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project WorksheetExample runs on platform default installation.
+2021-08-17 15:50:49,324  WARN [Java indexing] - ScalaProject - Project SampleProgram has platform default sourceLevel.
+2021-08-17 15:50:49,324  WARN [Java indexing] - ScalaProject - Project SampleProgram runs on platform default installation.
+2021-08-17 15:50:50,355  WARN [Worker-4] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2021-08-17 15:50:50,356  WARN [Worker-4] - ScalaProject - Project HelloWorld runs on platform default installation.
+2021-08-17 15:50:50,432  WARN [Worker-4] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2021-08-17 15:50:50,433  WARN [Worker-4] - ScalaProject - Project HelloWorld runs on platform default installation.
+2021-08-17 15:50:58,189  WARN [Worker-4] - ScalaProject - Project SampleProgram has platform default sourceLevel.
+2021-08-17 15:50:58,190  WARN [Worker-4] - ScalaProject - Project SampleProgram runs on platform default installation.
+2021-08-17 15:50:58,205  WARN [Worker-4] - ScalaProject - Project SampleProgram has platform default sourceLevel.
+2021-08-17 15:50:58,206  WARN [Worker-4] - ScalaProject - Project SampleProgram runs on platform default installation.
+2021-08-17 15:51:01,257  WARN [Worker-4] - ScalaProject - Project WorksheetExample has platform default sourceLevel.
+2021-08-17 15:51:01,257  WARN [Worker-4] - ScalaProject - Project WorksheetExample runs on platform default installation.
+2021-08-17 15:51:01,280  WARN [Worker-4] - ScalaProject - Project WorksheetExample has platform default sourceLevel.
+2021-08-17 15:51:01,280  WARN [Worker-4] - ScalaProject - Project WorksheetExample runs on platform default installation.
+2021-08-17 15:52:12,629  WARN [Worker-9] - ScalaProject - Project SampleProgram has platform default sourceLevel.
+2021-08-17 15:52:12,630  WARN [Worker-9] - ScalaProject - Project SampleProgram runs on platform default installation.
+2021-08-17 15:52:34,813  WARN [Worker-9] - ScalaProject - Project SampleProgram has platform default sourceLevel.
+2021-08-17 15:52:34,813  WARN [Worker-9] - ScalaProject - Project SampleProgram runs on platform default installation.
+2021-08-17 15:53:46,170  WARN [Worker-10] - ScalaProject - Project SampleProgram has platform default sourceLevel.
+2021-08-17 15:53:46,170  WARN [Worker-10] - ScalaProject - Project SampleProgram runs on platform default installation.
+2021-08-17 15:53:53,208 ERROR [scala-execution-context-global-76] - EclipseRepl - error during command processing
+scala.reflect.internal.Symbols$CyclicReference: illegal cyclic reference involving object scala
+	at scala.reflect.internal.Symbols$Symbol.$anonfun$info$3(Symbols.scala:1519)
+	at scala.Function0.apply$mcV$sp(Function0.scala:34)
+	at scala.reflect.internal.Symbols$Symbol.lock(Symbols.scala:569)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1517)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol$$anon$2.scala$reflect$runtime$SynchronizedSymbols$SynchronizedSymbol$$super$info(SynchronizedSymbols.scala:175)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol.$anonfun$info$1(SynchronizedSymbols.scala:129)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol.gilSynchronizedIfNotThreadsafe(SynchronizedSymbols.scala:125)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol.gilSynchronizedIfNotThreadsafe$(SynchronizedSymbols.scala:121)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol$$anon$2.gilSynchronizedIfNotThreadsafe(SynchronizedSymbols.scala:175)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol.info(SynchronizedSymbols.scala:129)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol.info$(SynchronizedSymbols.scala:129)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol$$anon$2.info(SynchronizedSymbols.scala:175)
+	at scala.reflect.internal.pickling.UnPickler$Scan.fromName$1(UnPickler.scala:215)
+	at scala.reflect.internal.pickling.UnPickler$Scan.$anonfun$readSymbol$3(UnPickler.scala:240)
+	at scala.reflect.internal.pickling.UnPickler$Scan.readExtSymbol$1(UnPickler.scala:240)
+	at scala.reflect.internal.pickling.UnPickler$Scan.readSymbol(UnPickler.scala:265)
+	at scala.reflect.internal.pickling.UnPickler$Scan.readSymbolRef(UnPickler.scala:629)
+	at scala.reflect.internal.pickling.UnPickler$Scan.readType(UnPickler.scala:397)
+	at scala.reflect.internal.pickling.UnPickler$Scan.$anonfun$readTypeRef$1(UnPickler.scala:638)
+	at scala.reflect.internal.pickling.UnPickler$Scan.at(UnPickler.scala:177)
+	at scala.reflect.internal.pickling.UnPickler$Scan.readTypeRef(UnPickler.scala:638)
+	at scala.reflect.internal.pickling.UnPickler$Scan.$anonfun$readType$1(UnPickler.scala:359)
+	at scala.reflect.internal.pickling.PickleBuffer.until(PickleBuffer.scala:154)
+	at scala.reflect.internal.pickling.UnPickler$Scan.readTypes$1(UnPickler.scala:357)
+	at scala.reflect.internal.pickling.UnPickler$Scan.readType(UnPickler.scala:399)
+	at scala.reflect.internal.pickling.UnPickler$Scan$LazyTypeRef.$anonfun$completeInternal$1(UnPickler.scala:712)
+	at scala.reflect.internal.pickling.UnPickler$Scan.at(UnPickler.scala:177)
+	at scala.reflect.internal.pickling.UnPickler$Scan$LazyTypeRef.completeInternal(UnPickler.scala:712)
+	at scala.reflect.internal.pickling.UnPickler$Scan$LazyTypeRef.complete(UnPickler.scala:739)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1531)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol$$anon$2.scala$reflect$runtime$SynchronizedSymbols$SynchronizedSymbol$$super$info(SynchronizedSymbols.scala:175)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol.$anonfun$info$1(SynchronizedSymbols.scala:129)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol.gilSynchronizedIfNotThreadsafe(SynchronizedSymbols.scala:125)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol.gilSynchronizedIfNotThreadsafe$(SynchronizedSymbols.scala:121)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol$$anon$2.gilSynchronizedIfNotThreadsafe(SynchronizedSymbols.scala:175)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol.info(SynchronizedSymbols.scala:129)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol.info$(SynchronizedSymbols.scala:129)
+	at scala.reflect.runtime.SynchronizedSymbols$SynchronizedSymbol$$anon$2.info(SynchronizedSymbols.scala:175)
+	at scala.reflect.internal.Types$TypeRef.baseClasses(Types.scala:2300)
+	at scala.reflect.internal.tpe.FindMembers$FindMemberBase.<init>(FindMembers.scala:17)
+	at scala.reflect.internal.tpe.FindMembers$FindMember.<init>(FindMembers.scala:219)
+	at scala.reflect.internal.Types$Type.findMemberInternal$1(Types.scala:1033)
+	at scala.reflect.internal.Types$Type.findMember(Types.scala:1035)
+	at scala.reflect.internal.Types$Type.memberBasedOnName(Types.scala:661)
+	at scala.reflect.internal.Types$Type.member(Types.scala:625)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:48)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:66)
+	at scala.reflect.internal.Mirrors$RootsBase.staticPackage(Mirrors.scala:194)
+	at scala.reflect.runtime.JavaMirrors$JavaMirror.staticPackage(JavaMirrors.scala:82)
+	at scala.reflect.internal.Mirrors$RootsBase.$anonfun$init$1(Mirrors.scala:235)
+	at scala.reflect.internal.Mirrors$RootsBase.init(Mirrors.scala:232)
+	at scala.reflect.runtime.JavaMirrors.createMirror(JavaMirrors.scala:32)
+	at scala.reflect.runtime.JavaMirrors.$anonfun$runtimeMirror$1(JavaMirrors.scala:49)
+	at scala.reflect.runtime.JavaMirrors.runtimeMirror(JavaMirrors.scala:47)
+	at scala.reflect.runtime.JavaMirrors.runtimeMirror$(JavaMirrors.scala:46)
+	at scala.reflect.runtime.JavaUniverse.runtimeMirror(JavaUniverse.scala:16)
+	at scala.reflect.runtime.JavaMirrors$JavaMirror.mirrorDefining(JavaMirrors.scala:566)
+	at scala.reflect.runtime.SymbolLoaders$PackageScope.$anonfun$lookupEntry$1(SymbolLoaders.scala:136)
+	at scala.reflect.runtime.SymbolLoaders$PackageScope.syncLockSynchronized(SymbolLoaders.scala:121)
+	at scala.reflect.runtime.SymbolLoaders$PackageScope.lookupEntry(SymbolLoaders.scala:123)
+	at scala.reflect.internal.Types$Type.findDecl(Types.scala:990)
+	at scala.reflect.internal.Types$Type.decl(Types.scala:586)
+	at scala.reflect.runtime.JavaMirrors.missingHook(JavaMirrors.scala:1330)
+	at scala.reflect.runtime.JavaMirrors.missingHook$(JavaMirrors.scala:1326)
+	at scala.reflect.runtime.JavaUniverse.missingHook(JavaUniverse.scala:16)
+	at scala.reflect.internal.Mirrors$RootsBase.universeMissingHook(Mirrors.scala:82)
+	at scala.reflect.internal.Mirrors$RootsBase.$anonfun$missingHook$2(Mirrors.scala:85)
+	at scala.reflect.internal.Mirrors$RootsBase.missingHook(Mirrors.scala:85)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:53)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:45)
+	at scala.reflect.internal.Mirrors$RootsBase.getModuleOrClass(Mirrors.scala:66)
+	at scala.reflect.internal.Mirrors$RootsBase.staticPackage(Mirrors.scala:194)
+	at scala.reflect.runtime.JavaMirrors$JavaMirror.staticPackage(JavaMirrors.scala:82)
+	at scala.reflect.internal.Mirrors$RootsBase.$anonfun$init$1(Mirrors.scala:235)
+	at scala.reflect.internal.Mirrors$RootsBase.init(Mirrors.scala:232)
+	at scala.reflect.runtime.JavaMirrors.createMirror(JavaMirrors.scala:32)
+	at scala.reflect.runtime.JavaMirrors.$anonfun$runtimeMirror$1(JavaMirrors.scala:49)
+	at scala.reflect.runtime.JavaMirrors.runtimeMirror(JavaMirrors.scala:47)
+	at scala.reflect.runtime.JavaMirrors.runtimeMirror$(JavaMirrors.scala:46)
+	at scala.reflect.runtime.JavaUniverse.runtimeMirror(JavaUniverse.scala:16)
+	at scala.reflect.runtime.JavaUniverse.runtimeMirror(JavaUniverse.scala:16)
+	at scala.tools.nsc.interpreter.IMain.runtimeMirror$lzycompute(IMain.scala:161)
+	at scala.tools.nsc.interpreter.IMain.runtimeMirror(IMain.scala:161)
+	at scala.tools.nsc.interpreter.IMain.$anonfun$getModuleIfDefined$1(IMain.scala:170)
+	at scala.tools.nsc.interpreter.IMain.getModuleIfDefined(IMain.scala:163)
+	at scala.tools.nsc.interpreter.IMain.readRootPath(IMain.scala:295)
+	at scala.tools.nsc.interpreter.IMain$ReadEvalPrint.resolvePathToSymbol(IMain.scala:765)
+	at scala.tools.nsc.interpreter.IMain$Request.resultSymbol$lzycompute(IMain.scala:970)
+	at scala.tools.nsc.interpreter.IMain$Request.resultSymbol(IMain.scala:969)
+	at scala.tools.nsc.interpreter.IMain$Request.$anonfun$typeMap$1(IMain.scala:981)
+	at scala.reflect.internal.util.Collections.$anonfun$mapFrom$1(Collections.scala:195)
+	at scala.tools.nsc.interpreter.IMain$Request.typeOf$lzycompute(IMain.scala:981)
+	at scala.tools.nsc.interpreter.IMain$Request.typeOf(IMain.scala:986)
+	at scala.tools.nsc.interpreter.IMain$Request.compile$lzycompute(IMain.scala:949)
+	at scala.tools.nsc.interpreter.IMain$Request.compile(IMain.scala:942)
+	at scala.tools.nsc.interpreter.IMain.compile(IMain.scala:600)
+	at scala.tools.nsc.interpreter.IMain.interpret(IMain.scala:589)
+	at scala.tools.nsc.interpreter.IMain.interpret(IMain.scala:561)
+	at org.scalaide.core.internal.repl.EclipseRepl$DefaultBuilder$$anon$1.interpret(EclipseRepl.scala:154)
+	at org.scalaide.core.internal.repl.EclipseRepl.$anonfun$doit$1(EclipseRepl.scala:232)
+	at org.scalaide.core.internal.repl.EclipseRepl.$anonfun$doit$1$adapted(EclipseRepl.scala:230)
+	at scala.Option.map(Option.scala:146)
+	at org.scalaide.core.internal.repl.EclipseRepl.doit(EclipseRepl.scala:230)
+	at org.scalaide.core.internal.repl.EclipseRepl.add(EclipseRepl.scala:211)
+	at org.scalaide.core.internal.repl.EclipseRepl.$anonfun$exec$1(EclipseRepl.scala:176)
+	at org.scalaide.core.internal.repl.EclipseRepl.$anonfun$exec$1$adapted(EclipseRepl.scala:176)
+	at org.scalaide.core.internal.repl.EclipseRepl.$anonfun$safely$3(EclipseRepl.scala:252)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at scala.Console$.withErr(Console.scala:192)
+	at org.scalaide.core.internal.repl.EclipseRepl.$anonfun$safely$2(EclipseRepl.scala:251)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)
+	at scala.Console$.withOut(Console.scala:163)
+	at org.scalaide.core.internal.repl.EclipseRepl.$anonfun$safely$1(EclipseRepl.scala:250)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:653)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:287)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:29)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:29)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at scala.concurrent.impl.ExecutionContextImpl$AdaptedForkJoinTask.exec(ExecutionContextImpl.scala:140)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
